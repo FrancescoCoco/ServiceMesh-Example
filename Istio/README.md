@@ -21,8 +21,9 @@
 ### Inside the installation's folder of Istio you can fine some samples about integration with metric's applications such as: Prometheus, Grafana, Jaggers. 
 - kubectl apply -f istio-1.16.1/samples/addons 
 - kubectl get svc -n istio-system
-#### PROMETHEUS 
+    #### PROMETHEUS 
 - kubectl port-forward svc/prometheus  -n istio-system 9090
     #### KIALI
 - kubectl port-forward svc/kiali  -n istio-system 20001
+    ![Kiali](./utils/Kiali-Console.png)
 
